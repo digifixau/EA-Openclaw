@@ -1,0 +1,83 @@
+{
+  "theme": "custom",
+  "width": 1080,
+  "height": 1920,
+  "cuts": [
+    {
+      "id": "shannon-hook",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 3,
+      "text": "SHANNON",
+      "subtitle": "The AI That Hacks You First",
+      "backgroundColor": "#0A0E1A",
+      "accentColor": "#00FF88"
+    },
+    {
+      "id": "shannon-stat",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 3,
+      "out_seconds": 6.5,
+      "stat": "96%",
+      "subtitle": "Exploit success rate — 96 of 104 real vulnerabilities found",
+      "accentColor": "#00FF88",
+      "backgroundColor": "#0A0E1A"
+    },
+    {
+      "id": "shannon-comparison",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 6.5,
+      "out_seconds": 10,
+      "leftLabel": "Traditional Pentest",
+      "leftValue": "Weeks",
+      "rightLabel": "Shannon",
+      "rightValue": "1 Command",
+      "accentColor": "#00FF88",
+      "backgroundColor": "#0A0E1A"
+    },
+    {
+      "id": "shannon-flow",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 10,
+      "out_seconds": 13.5,
+      "title": "5-Phase Autonomous Pipeline",
+      "items": [
+        {"label": "Recon", "value": "Scan"},
+        {"label": "Analyze", "value": "5 Agents"},
+        {"label": "Exploit", "value": "Prove"},
+        {"label": "Report", "value": "PoC"}
+      ],
+      "accentColor": "#00FF88",
+      "backgroundColor": "#0A0E1A"
+    },
+    {
+      "id": "shannon-cta",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 13.5,
+      "out_seconds": 16,
+      "text": "Open Source · 39K ★ Stars",
+      "subtitle": "github.com/KeygraphHQ/shannon",
+      "color": "#00FF88",
+      "backgroundColor": "#0A0E1A"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 0.3,
+      "out_seconds": 2.5,
+      "text": "AI PENTESTER",
+      "position": "bottom"
+    }
+  ],
+  "audio": {
+    "narration": "projects/shannon-instagram-story/assets/audio/narration_fast.mp3",
+    "narration_volume": 0.9,
+    "music_volume": 0
+  }
+}
